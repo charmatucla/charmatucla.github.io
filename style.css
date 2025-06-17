@@ -221,7 +221,7 @@ body {
   font-weight: 300;
   /*text-align: center;
   padding: 3px 4px;*/
-  //margin-top: 5px;
+  margin-top: 5px;
   background-color: #cddafd;
   border: none;
   color: navy;
@@ -251,7 +251,7 @@ body {
 }
 
 .learnmoretext {
-  display: absolute;
+  position: absolute;
   margin-top: 50px;
   margin-left: 110px;
   margin-right: 110px;
@@ -308,13 +308,11 @@ p {
   display: block;
   position: relative;
   padding-left: 35px;
-  //margin-bottom: 12px;
+  margin-bottom: 12px;
   cursor: pointer;
-  //font-size: 18px; add this?
   font-size: 22px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  //color: navy; add this?
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
