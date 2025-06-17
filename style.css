@@ -1,0 +1,425 @@
+/* STYLE SECTIONING TAGS */
+
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 15px;
+  
+}
+#content {
+  margin-left: 50px;
+}
+#twobuttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  
+}
+
+#myth {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #eaf1fb;
+  font-family: "Lucida Console", "Monaco", monospace;
+  color: rgb(33, 53, 53);
+}
+
+#fact {
+  padding: 10px;
+  background-color: #eaf1fb;
+  margin-left: 10px;
+  font-family: "Lucida Console", "Monaco", monospace;
+  color: rgb(33, 53, 53);
+}
+
+#nextUp {
+  padding: 10px;
+  background-color: #eaf1fb;
+  margin-left: 10px;
+  font-family: "Lucida Console", "Monaco", monospace;
+  color: rgb(33, 53, 53);
+}
+
+#mythorfactgame {
+  background-color: rgb(145, 178, 202);
+}
+.textbig {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(33, 53, 53);
+  padding: 0;
+}
+body {
+ background-color: rgb(247, 247, 247); 
+}
+
+/* STYLE TEXT */
+
+a {
+  padding: 0;
+}
+
+#title {
+  font-family: 'Katibeh', sans-serif;
+  font-weight: 300;
+  margin-left: 100px;
+}
+h1 {
+  color: rgb(6, 9, 9);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+}
+
+.h1roboto {
+  color: rgb(33, 53, 53);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+}
+
+#resources {
+  color: rgb(33, 53, 53);
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+#resources1 {
+  color: rgb(33, 53, 53);
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+#resourcetitle {
+  color: rgb(33, 53, 53);
+  font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+  font-weight: 300;
+}
+
+#resourcetitle1 {
+  color: rgb(33, 53, 53);
+  font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+  font-weight: 300;
+}
+
+h2 {
+  color: rgb(33, 53, 53);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h3 {
+  color: rgb(33, 53, 53);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+
+
+.navtext {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+/* Style the top navigation bar */
+.navigation {
+  overflow: hidden;
+  background-color: rgb(145, 178, 202);
+  padding-bottom: 5px;
+  margin-top: -30px;
+  margin-left: -30px;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+/* Style the topnav links */
+.navigation-text a {
+  display: block;
+  float: right;
+  color: rgb(6, 9, 9);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px 7px;
+  margin-left: 15px;
+  text-decoration: none;
+
+
+  
+  
+
+}
+
+/* Change color on hover */
+.navigation-text a:hover {
+  background-color:#abc9e2;
+  color: rgb(76, 93, 93);
+  
+}
+
+.navigation1 {
+  overflow: hidden;
+  background-color: rgb(132, 182, 142);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 80px;
+  margin-left: -30px;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+/* Style the topnav links */
+.navigation-text1 a {
+  float: right;
+  display: block;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px 7px;
+  margin-left: 15px;
+  text-decoration: none;
+
+
+  
+  
+
+}
+
+/* Change color on hover */
+.navigation-text1 a:hover {
+  background-color:darkseagreen;
+  color: lavender;
+  
+}
+
+.action {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  /*text-align: center;
+  padding: 3px 4px;*/
+  //margin-top: 5px;
+  background-color: #cddafd;
+  border: none;
+  color: navy;
+  padding: 15px 32px;
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  
+  
+}
+
+#actiondiv {
+  display: block;
+  margin-top: 100px;
+}
+
+#hometext {
+  display: block;
+  margin-top: 300px;
+  
+}
+
+#gethelptext {
+  display: block;
+  margin-top: 100px;
+}
+
+.learnmoretext {
+  display: absolute;
+  margin-top: 50px;
+  margin-left: 110px;
+  margin-right: 110px;
+  color: rgb(33, 53, 53);
+}
+
+
+
+
+#charm {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  margin-top: -5.5rem;
+  margin-left: 0rem;
+  padding: 15px;
+}
+
+#bigfact {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 5px;
+  background-color: rgb(245, 245, 245, 0.8);
+  color: rgb(33, 53, 53);
+  z-index: -3;
+  margin-top: 300px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#million {
+  font-size: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(33, 53, 53);
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#ocdimage {
+  position: absolute;
+  left: 10px;
+  top: 120px; 
+  width: 100%;
+  z-index: -1;
+  padding: 15px 0px;
+
+}
+
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  //margin-bottom: 12px;
+  cursor: pointer;
+  //font-size: 18px; add this?
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  //color: navy; add this?
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: rgb(204, 233, 230);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#underline {
+   text-decoration: underline;
+   padding: 0px;
+} 
+
+.bold {
+   font-weight: bold;
+   text-decoration: underline;
+   padding: 0px;
+} 
+
+#oc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-size: 22px;
+  color: rgb(33, 53, 53);
+
+}
+
+#whatisocd1 {
+  position: absolute;
+  margin-top: 50px;
+}
+
+.checking {
+  margin-left: 50px;
+}
+
+#credit1 {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: -15px;
+  margin-top: 100px;
+  padding: 0px;
+}
+
+#credit2 {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: -15px;
+  margin-top: 0px;
+  padding: 0px;
+}
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
