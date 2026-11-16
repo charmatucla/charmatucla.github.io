@@ -393,9 +393,10 @@ p {
 /* LEARN MORE Page */
 #learnmorediv {
   display: block;
-  width: 75%;
+  width: 100%;
   height: calc(100vh - 60px); /* viewport minus nav height */
   border: 0;
+  justify-content: center;
 
 }
 
