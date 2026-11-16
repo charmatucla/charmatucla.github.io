@@ -388,9 +388,12 @@ p {
 }
 
 /* LEARN MORE Page */
-/*#learnmorediv {
+#learnmorediv {
+  display: block;
+  margin-top: 200px;
+  padding: 50px;
 
-}*/
+}
 
 /* RESOURCES Page
 */
