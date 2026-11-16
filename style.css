@@ -390,8 +390,9 @@ p {
 /* LEARN MORE Page */
 #learnmorediv {
   display: block;
-  margin-top: 500px;
-  padding: 50px;
+  width: 75%;
+  height: calc(100vh - 60px); /* viewport minus nav height */
+  border: 0;
 
 }
 
