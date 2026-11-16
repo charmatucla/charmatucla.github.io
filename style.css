@@ -393,11 +393,8 @@ p {
 /* LEARN MORE Page */
 #learnmorediv {
   display: block;
-  width: 100%;
-  height: calc(100vh - 60px); /* viewport minus nav height */
-  border: 0;
-  justify-content: center;
-
+  margin-top: 200px;
+  padding: 50px;
 }
 
 /* RESOURCES Page
